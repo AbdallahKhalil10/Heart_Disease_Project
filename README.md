@@ -6,16 +6,7 @@
 ![numpy](https://img.shields.io/badge/NumPy-1.24.0-yellow?logo=numpy)
 ![matplotlib](https://img.shields.io/badge/Matplotlib-3.6.2-green?logo=plotly)
 ![seaborn](https://img.shields.io/badge/Seaborn-0.12.2-teal)
-![fastapi](https://img.shields.io/badge/FastAPI-0.95.0-success?logo=fastapi)
-![License](https://img.shields.io/badge/License-MIT-purple)
 
-<p align="left">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit-learn" width="120"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" alt="pandas" width="120"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" alt="matplotlib" width="80"/>
-  <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="80"/>
-  <img src="https://upload.wikimedia.org/commons/3/31/NumPy_logo_2020.svg" alt="numpy" width="120"/>
-</p>
 
 This project builds a heart disease prediction system using the UCI Heart Disease dataset. It includes data preprocessing, exploratory analysis, PCA for dimensionality reduction, supervised learning (Logistic Regression, KNN, SVM, Decision Trees, Random Forest, Gradient Boosting) with hyperparameter tuning, and clustering (K-Means & Hierarchical). The best-performing model (SVM) is selected via GridSearchCV and deployed as a FastAPI service, allowing real-time predictions.
 
