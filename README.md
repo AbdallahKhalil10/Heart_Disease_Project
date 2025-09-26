@@ -1,0 +1,2 @@
+# Heart_Disease_Prediction_ML_Project
+ This project builds a heart disease prediction system using the UCI Heart Disease dataset. It includes data preprocessing, exploratory analysis, PCA for dimensionality reduction, supervised learning (Logistic Regression, KNN, SVM, Decision Trees, Random Forest, Gradient Boosting) with hyperparameter tuning, and clustering (K-Means & Hierarchical). The best-performing model (SVM/Random Forest) is selected via GridSearchCV and deployed as a FastAPI service, allowing real-time predictions with probability scores.
